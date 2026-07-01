@@ -15,11 +15,11 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 def sample_transcript():
     """Sample transcript for testing."""
     return """
-    AI Agent: Hi, thanks for calling Nike. Am I speaking with Sarah?
+    AI Agent: Hi, thanks for calling. Am I speaking with Sarah?
     Customer: Yes.
     AI Agent: Hi Sarah, thanks for calling. I can access your account and help answer any questions. What can I help you with today?
     Customer: I'd like to know the status of my order.
-    AI Agent: Is this about your order for the Air Max 270 sneakers in black?
+    AI Agent: Is this about your order for the running sneakers in black?
     Customer: Yes, that's right.
     AI Agent: I've pulled up your order. It looks like your order is currently on its way to you and will be delivered by FedEx. You should receive it by tomorrow at 3 PM. Did you have any other questions?
     Customer: The package is being delivered, but they sent it to the wrong address.
@@ -36,7 +36,7 @@ def sample_transcripts():
         {
             "id": "test_001",
             "transcript": """
-            AI Agent: Hi, thanks for calling Nike. Am I speaking with Sarah?
+            AI Agent: Hi, thanks for calling. Am I speaking with Sarah?
             Customer: Yes.
             AI Agent: I'd like to know the status of my order.
             AI Agent: Your order is shipped and will arrive tomorrow.
@@ -48,7 +48,7 @@ def sample_transcripts():
         {
             "id": "test_002",
             "transcript": """
-            AI Agent: Hi, thanks for calling Nike. Am I speaking with Mike?
+            AI Agent: Hi, thanks for calling. Am I speaking with Mike?
             Customer: Yes.
             Customer: I want to return something.
             AI Agent: I'll connect you with our returns team.

@@ -4,7 +4,7 @@ An AI-powered Quality Assurance system for analyzing e-commerce customer support
 
 ## 🎯 Project Overview
 
-This project was developed for Flip for their - QA Voice Agent team. The system analyzes customer service call transcripts and provides sophisticated categorization:
+This system analyzes customer service call transcripts and provides sophisticated categorization:
 
 ### Classification Categories
 
@@ -67,7 +67,7 @@ from src.qa_agent import qa_agent
 
 async def analyze_transcript():
     transcript = """
-    AI Agent: Hi, thanks for calling Nike. How can I help?
+    AI Agent: Hi, thanks for calling. How can I help?
     Customer: I need to check my order status.
     AI Agent: Your order #12345 shipped yesterday and will arrive tomorrow.
     Customer: Perfect, thank you!
@@ -389,7 +389,7 @@ This QA system provides significant business value:
 
 ## 🔍 Sample Data
 
-The project includes 5 annotated Nike customer service call transcripts:
+The project includes 5 annotated customer service call transcripts:
 
 1. **Call 1**: Automated (Successful) - Order Status
 2. **Call 2**: Automated (Partially Successful) - Return Status

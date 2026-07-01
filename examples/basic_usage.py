@@ -25,11 +25,11 @@ async def analyze_single_transcript():
 
     # Sample transcript (from our test data)
     transcript = """
-    AI Agent: Hi, thanks for calling Nike. Am I speaking with Sarah?
+    AI Agent: Hi, thanks for calling. Am I speaking with Sarah?
     Customer: Yes.
     AI Agent: Hi Sarah, thanks for calling. I can access your account and help answer any questions. What can I help you with today?
     Customer: I'd like to know the status of my order.
-    AI Agent: Is this about your order for the Air Max 270 sneakers in black?
+    AI Agent: Is this about your order for the running sneakers in black?
     Customer: Yes, that's right.
     AI Agent: I've pulled up your order. It looks like your order is currently on its way to you and will be delivered by FedEx. You should receive it by tomorrow at 3 PM. Did you have any other questions?
     Customer: The package is being delivered, but they sent it to the wrong address.
@@ -180,7 +180,7 @@ async def export_analysis_example():
 
     # Analyze a sample transcript
     transcript = """
-    AI Agent: Hi, thanks for calling Nike. Am I speaking with Mike?
+    AI Agent: Hi, thanks for calling. Am I speaking with Mike?
     Customer: Yes.
     AI Agent: Hi Mike, welcome back. I can access your account and help answer any questions. What do you need help with today?
     Customer: Return order.

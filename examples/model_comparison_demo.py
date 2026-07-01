@@ -24,7 +24,7 @@ async def compare_models_on_single_transcript():
 
     # Sample transcript
     transcript = """
-    AI Agent: Hi, thanks for calling Nike. Am I speaking with Jessica?
+    AI Agent: Hi, thanks for calling. Am I speaking with Jessica?
     Customer: Yes.
     AI Agent: Hi Jessica, thanks for calling. I can access your account and help answer any questions. What can I help you with today?
     Customer: I submitted a return and haven't received a refund.
@@ -167,14 +167,14 @@ async def model_consistency_test():
 
     # Sample transcript
     transcript = """
-    AI Agent: Hi, thanks for calling Nike. Am I speaking with David?
+    AI Agent: Hi, thanks for calling. Am I speaking with David?
     Customer: Yes.
     AI Agent: Hi David, thanks for calling. I can access your account and help answer any questions. What can I help you with today?
-    Customer: I need help with sizing for the Air Force 1s. I usually wear a 10 but heard they run big.
-    AI Agent: I can help with general sizing information. Air Force 1s typically run about half a size large, so many customers size down. However, for the best fit recommendation, I'd like to connect you with our product specialist.
+    Customer: I need help with sizing for the low-top sneakers. I usually wear a 10 but heard they run big.
+    AI Agent: I can help with general sizing information. Those sneakers typically run about half a size large, so many customers size down. However, for the best fit recommendation, I'd like to connect you with our product specialist.
     Customer: That would be great.
     AI Agent: Let me transfer you to our product team now.
-    AI Agent: Thanks for calling Nike. Our customer service team is experiencing higher than normal volume. We are available to answer all inquiries by email at this time. Please reach out to us directly at help@nike.com. We appreciate your understanding. Have a great day.
+    AI Agent: Thanks for calling. Our customer service team is experiencing higher than normal volume. We are available to answer all inquiries by email at this time. Please reach out to us directly at help@example.com. We appreciate your understanding. Have a great day.
     """
 
     # Get first available model

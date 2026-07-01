@@ -90,7 +90,7 @@ async def single_model_evaluation():
         report = qa_evaluator.generate_evaluation_report(
             metrics=metrics,
             model_name=test_model,
-            test_description=f"Evaluation on {len(test_data)} Nike customer service transcripts"
+            test_description=f"Evaluation on {len(test_data)} customer service transcripts"
         )
 
         print("\n" + "="*60)
